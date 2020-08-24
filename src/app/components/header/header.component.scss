@@ -1,0 +1,69 @@
+
+/*.header {
+    background-color:  #424D83;
+    color: white;
+    top: 0px;    
+}
+
+.logo{
+    float: left;
+}
+*/
+
+
+
+
+#homeheader {
+    max-width: 56px;
+    height: 27px;
+    background: #93A5FF;
+    border-radius: 0px 0px 5px 5px;
+    opacity: 1;
+    text-align: center;
+    letter-spacing: 0.6px;
+    padding: 51px 26px 13px 28px;
+    margin-right: 22.5px;
+    }
+
+.mat-toolbar.mat-primary {
+    width: 1920px;
+    height: 91px;
+    background: #424D83;
+    color: #fff;
+    font-family: 'Nunito Regular';
+    font-size: 20px;
+    letter-spacing: 0.3px;
+}
+
+#logo {
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 164px;
+}
+
+.others{
+    padding: 51px 35.5px 13px 22.5px;
+    opacity: 0.9;
+}
+
+.button1{
+    background-color: white;
+    border-radius: 5px;
+    opacity: 1;
+    width: 123px;
+    height: 54px;
+    color: #93A5FF;
+    font-family: 'Nunito Regular';
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    border: white;
+}
+
+.space {
+    flex: 1 1 auto;
+}
+
+#img-Log {
+    padding-left: 14px;
+}
