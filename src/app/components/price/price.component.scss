@@ -66,6 +66,9 @@
         padding-top: 36px;
         padding-bottom: 36px;
         opacity: 0.9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         
         .text2{
             font: normal normal normal 20px/37px "Nunito Regular";
@@ -91,15 +94,19 @@
             }
         }
     }
+
+    .submit{
+        display: none;
+    }
+    
 }
 
-.hover{
+
+
+.price-component:hover {
     background-color: white;
     height: 641px;
-    width: 100%;
-    opacity: 1;
-    position: absolute;
-    visibility: hidden;
+    width: 358px;
     top: 0;
     z-index: 1;
     border: 1px solid #0000001c;
@@ -108,9 +115,10 @@
     border-radius: 5px;
     border-top-color:#93A5FF ;
     border-top-width: 11px;
+        
     
-
-    input[type="submit"] {
+    .submit {
+        display: block;
         width: 222px;
         height: 55px;
         margin-top: 47px;
@@ -122,7 +130,5 @@
         letter-spacing: 0.25px;
         cursor: pointer;
         opacity: 0.9;
-     }
+    }
 }
-
-.price-component:hover .hover { visibility: visible; }
