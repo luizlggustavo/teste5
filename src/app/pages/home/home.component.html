@@ -1,58 +1,14 @@
 <app-header></app-header>
-<!-- Testes
-<div class="grid-container">
-    <div class="home">
-        <div class="item1">
-            <h1 id="h1home">Web Hosting Easy and Secure</h1>    
-            <p id="texthome">Full control of what you use and pay for</p>        
-        
-            <form>
-                <select>
-                    <option>Search for a domain name</option>
-                </select>
-                <input type="submit" value="CHECK AVAILABILITY">
-            </form>
-        </div>
-                
-        <div class="item2">
-            <img src="assets/img/detalhe-home.png">
-        </div>
 
-        <div class="item3">3</div>
-    </div>
- 
-</div> -->
-
-<!-- Home 1 -->
-<!-- <div class="home">
-    <div class="page">
-        <h1 class="h1">Web Hosting Easy and Secure</h1>
-        <p class="text1">Full control of what you use and pay for</p>
-        <div class="page-container">
-            <form>
-                <select>
-                    <option>Search for a domain name</option>
-                </select>
-                <input type="submit" value="CHECK AVAILABILITY">
-            </form>
-
-            <div class="imghome">
-                <img src="assets/img/detalhe-home.png" id="img-home">
-            </div>
-
-        </div>
-    </div>
-</div> -->
-
-<!-- home gustavo -->
+<!-- home (secao-principal) -->
 
 <div class="secao-principal">
     <div class="title-column">
         <div class="title">Web Hosting Easy and Secure</div>
         <div class="subtitle">Full control of what you use and pay for</div>
         <div class="form">
-            <input type="text">
-            <select id="cars">
+            <input type="text" placeholder="Search for a domain name">
+            <select id="form">
                 <option value="valor1">.com</option>
                 <option value="valor2">.com.br</option>
             </select>
@@ -64,11 +20,13 @@
     </div>
 </div>
 
-<!--Home 2-->
+<div class="layout"><div class="esquerda"></div><div class="direita"></div></div>
 
-<div class="home2">
-    <h2 class="h2">What will you get if you'll join us</h2>
-    <p class="text2">Get the best web hostingservice at the price you can afford</p>
+<!--Home (secao-secundaria) -->
+
+<div class="secao-secundaria">
+    <h2 class="title2">What will you get if you'll join us</h2>
+    <p class="subtitle2">Get the best web hostingservice at the price you can afford</p>
 
     <div class="grid-container">
 
@@ -76,8 +34,8 @@
             <span class="material-icons">construction</span>
         </div>
         <div class="item2">
-            <h3 class="h3">WE GIV A CARE</h3>
-            <p class="text3">Beside the support we provide you with various<br>
+            <h3 class="title3">WE GIV A CARE</h3>
+            <p class="text1">Beside the support we provide you with various<br>
                 tools to be able to host and manage your websites
             </p>
         </div>
@@ -85,8 +43,8 @@
             <img src="/assets/img/cloud.png" width="73px" height="71px" class="material-icons">
         </div>
         <div class="item4">
-            <h3 class="h3">TWEAK AS YOU WISH</h3>
-            <p class="text3">Be able to costumize your plan over time if needed<br>
+            <h3 class="title3">TWEAK AS YOU WISH</h3>
+            <p class="text1">Be able to costumize your plan over time if needed<br>
                 so you pay only for what you use
             </p>
         </div>
@@ -94,8 +52,8 @@
             <img src="/assets/img/Globe.png" width="71px" height="71px" class="material-icons">
         </div>
         <div class="item6">
-            <h3 class="h3">SECURITY AT ITS BEST</h3>
-            <p class="text3">We are the most reliable service provider ready to give<br>
+            <h3 class="title3">SECURITY AT ITS BEST</h3>
+            <p class="text1">We are the most reliable service provider ready to give<br>
                 you a helping hand the fastest way possible 24/7
             </p>
         </div>
@@ -107,11 +65,11 @@
 </div>
 
 
-<!--Home 3-->
+<!--secao-terciaria -->
 
-<div class="home3">
-    <h2 class="h2">Don't know where to start from?</h2>
-    <p class="text2">We've got the best articles, tools and resources to help you to start</p>
+<div class="secao-terciaria">
+    <div class="title2">Don't know where to start from?</div>
+    <p class="subtitle2">We've got the best articles, tools and resources to help you to start</p>
 
     <div class="grid-container">
         <div class="item8 box1">
@@ -139,3 +97,53 @@
         </div>
     </div>
 </div>
+
+<!-- secao-quatro -->
+
+<div class="secao-quatro">
+    <div class="title2">Types of hosting that we provide</div>
+    <div class="subtitle2">Our service is always affordable for everyone.</div>
+    
+    <div class="prices">
+        <div class="price1">
+            <app-price></app-price>
+        </div>
+        <div class="price1">
+            <app-price></app-price>
+        </div>
+        <div class="price1">
+            <app-price></app-price>
+        </div>
+        <div class="price1">
+            <app-price></app-price>
+        </div>        
+    </div>
+</div>
+
+<!-- secao-cinco -->
+<div class="secao-cinco">
+    <div class="title2">Valued customers with valuable feedback</div>
+    <div class="subtitle2">Feedbacks from our happy users. Become one of them.</div>
+
+</div>
+
+
+
+<div class="secao-seis">
+    <div class="content-secao-seis">
+        <div class="title2">Our Clients</div>
+        <div class="subtitle2">You can be the next one and may start for free</div>
+        <div class="client-img">
+            <div id="robinhood"></div>
+            <div class="client" id="reddit"></div>
+            <div class="client" id="upcase"></div>
+            <div class="client" id="hubspot"></div>
+            <div class="client" id="tunein"></div>
+            <div class="client" id="botton">
+                <input type="submit" value="GET FREE TRIAL">
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
