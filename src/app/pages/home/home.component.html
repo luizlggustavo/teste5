@@ -105,18 +105,9 @@
     <div class="subtitle2">Our service is always affordable for everyone.</div>
     
     <div class="prices">
-        <div class="price1">
-            <app-price></app-price>
+        <div class="price1" *ngFor="let price of priceList">
+            <app-price [price]="price"></app-price>
         </div>
-        <div class="price1">
-            <app-price></app-price>
-        </div>
-        <div class="price1">
-            <app-price></app-price>
-        </div>
-        <div class="price1">
-            <app-price></app-price>
-        </div>        
     </div>
 </div>
 

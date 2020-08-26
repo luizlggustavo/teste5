@@ -1,15 +1,19 @@
 <div class="price-component">
     <div class="content">
         <div class="alinhamento">
-            <div class="color"><div class="img"></div></div>
+            <div class="color">
+                <!-- <div class="img"></div> -->
+                <img [src]="price?.img" alt="Dado">
+            </div>
         </div>
-        <div class="title">SHARED HOSTING</div>
-        <div class="text">Increase the rank of you website by the higher speed</div>
+        <div class="title">{{price?.title}}</div>
+        <div class="text">{{price?.text}}</div>
     </div>
-    
+
     <div class="price">
         <div class="text2">Get started at</div>
-        <div class="price-per-month">$ 15,99/ <p id="month"> month</p></div>
-        <button class="submit">CUSTOMISE PLAN ></button>
+        <div class="price-per-month">{{price?.pricePerMonth | currency}}/ <p id="month"> month</p>
+        </div>
+        <input type="submit" value="CUSTOMISE PLAN >">
     </div>
 </div>
