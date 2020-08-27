@@ -14,28 +14,28 @@ export class HomeComponent implements OnInit {
   constructor() {
     this.priceList = [];
     const price: Price = {
-      title: 'Exemplo 1',
+      title: 'SHARED HOSTING',
       text: 'Increase the rank of you website by the higher speed',
       img: 'assets/img/database.png',
       pricePerMonth: 15.99,
     };
     const price2: Price = {
-      title: 'Exemplo 2',
-      text: 'Increase the rank of you website by the higher speed',
-      img: 'assets/img/Globe.png',
-      pricePerMonth: 15.99,
+      title: 'VPS HOSTING',
+      text: 'Be able to conceal your ID whenever needed',
+      img: 'assets/img/VPS_icon.png',
+      pricePerMonth: 8.99,
     };
     const price3: Price = {
-      title: 'Exemplo 3',
-      text: 'Increase the rank of you website by the higher speed',
-      img: 'assets/img/database.png',
-      pricePerMonth: 15.99,
+      title: 'CLOUD HOSTING',
+      text: 'Super convenient and highly customizable option',
+      img: 'assets/img/Cloud_Icon.png',
+      pricePerMonth: 7.99,
     };
     const price4: Price = {
-      title: 'Exemplo 4',
-      text: 'Increase the rank of you website by the higher speed',
-      img: 'assets/img/database.png',
-      pricePerMonth: 15.99,
+      title: 'WORDPRESS HOSTING',
+      text: 'With low cost and high variety of tools, pluggins of your choice',
+      img: 'assets/img/Globe.png',
+      pricePerMonth: 13.99,
     };
     this.priceList.push(price);
     this.priceList.push(price2);
